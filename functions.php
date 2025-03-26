@@ -1,5 +1,8 @@
 <?php
 
-$json_text = file_get_contents("./dischi.json");
+function getDisks() {
+    $json_text = file_get_contents("./dischi.json");
+    return json_decode($json_text, true);
+}
 
-$dischi = json_decode($json_text, true);
+?>
