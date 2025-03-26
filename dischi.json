@@ -1,0 +1,44 @@
+[
+    {
+        "titolo": "The Dark Side of the Moon",
+        "artista": "Pink Floyd",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+        "anno": 1973,
+        "genere": "Progressive Rock"
+    },
+    {
+        "titolo": "Thriller",
+        "artista": "Michael Jackson",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+        "anno": 1982,
+        "genere": "Pop"
+    },
+    {
+        "titolo": "Kind of Blue",
+        "artista": "Miles Davis",
+        "cover": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Kind_of_Blue_%281959%2C_CL_1355%29_album_cover.jpg",
+        "anno": 1959,
+        "genere": "Jazz"
+    },
+    {
+        "titolo": "Back to Black",
+        "artista": "Amy Winehouse",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/6/67/Amy_Winehouse_-_Back_to_Black_%28album%29.png",
+        "anno": 2006,
+        "genere": "Soul / R&B"
+    },
+    {
+        "titolo": "Discovery",
+        "artista": "Daft Punk",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/2/27/Daft_Punk_-_Discovery.png",
+        "anno": 2001,
+        "genere": "Electronic"
+    },
+    {
+        "titolo": "Nevermind",
+        "artista": "Nirvana",
+        "cover": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
+        "anno": 1991,
+        "genere": "Grunge"
+    }
+]
