@@ -24,45 +24,46 @@ $dischi = getDisks();
 
     <!-- Header -->
     <header>
-        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/2024_Spotify_logo_without_text.svg/1920px-2024_Spotify_logo_without_text.svg.png?20240618225721" alt="">
+        <img class="logo" src="./img/boolmusic-logo.png" alt="Logo di Boolmusic">
     </header>
-
-    <h2>Aggiungi un nuovo album!</h2>
-
-    <!-- Form -->
-    <form action="server.php" method="POST">
-
-        <div class="form-wrapper">
-
-            <!-- Form Left -->
-            <div class="form-left">
-                <label for="titolo">Titolo dell'album</label>
-                <input type="text" name="titolo" id="titolo" placeholder="Titolo album" required>
-
-                <label for="artista">Nome dell'artista</label>
-                <input type="text" name="artista" id="artista" placeholder="Nome artista" required>
-
-                <label for="genere">Genere dell'album</label>
-                <input type="text" name="genere" id="genere" placeholder="Genere album" required>
-            </div>
-
-            <!-- Form Right -->
-            <div class="form-right">
-
-                <label for="cover">Cover dell'album</label>
-                <input type="text" name="cover" id="cover" placeholder="Cover album" required>
-
-                <label for="anno">Anno di rilascio dell'album</label>
-                <input type="text" name="anno" id="anno" placeholder="Anno album" required>
-
-                <!-- Submit Button -->
-                <button class="add-song-btn" type="submit">Aggiungi +</button>
-            </div>
-        </div>
-    </form>
 
     <!-- Container -->
     <div class="container">
+        
+        <h2>Aggiungi un nuovo album</h2>
+
+        <!-- Form -->
+        <form action="server.php" method="POST">
+
+            <div class="form-wrapper">
+
+                <!-- Form Left -->
+                <div class="form-left">
+                    <label for="titolo">Titolo dell'album</label>
+                    <input type="text" name="titolo" id="titolo" placeholder="Titolo album" required>
+
+                    <label for="artista">Nome dell'artista</label>
+                    <input type="text" name="artista" id="artista" placeholder="Nome artista" required>
+
+                    <label for="genere">Genere dell'album</label>
+                    <input type="text" name="genere" id="genere" placeholder="Genere album" required>
+                </div>
+
+                <!-- Form Right -->
+                <div class="form-right">
+
+                    <label for="cover">Cover dell'album</label>
+                    <input type="text" name="cover" id="cover" placeholder="Cover album" required>
+
+                    <label for="anno">Anno di rilascio dell'album</label>
+                    <input type="text" name="anno" id="anno" placeholder="Anno album" required>
+
+                    <!-- Submit Button -->
+                    <button class="add-song-btn" type="submit">Aggiungi +</button>
+                </div>
+            </div>
+        </form>
+
 
         <h2>Lista brani</h2>
 
@@ -86,4 +87,5 @@ $dischi = getDisks();
         </ul>
     </div>
 </body>
+
 </html>
